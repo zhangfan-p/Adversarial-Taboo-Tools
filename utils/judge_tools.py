@@ -64,15 +64,3 @@ class SentencePPL(object):
             loss = torch.mean(loss_all)
             ppl = torch.exp(loss)
             return ppl.item()
-
-post = "don't make gravy with asbestos."
-response = "i'd expect someone with a culinary background to know that. since we're talking about school dinner ladies, they need to learn this pronto."
-text = "i really like his show, but it is really annoying when people take the show's position on things as the end all be all on the subject, and have circle jerks about it."
-
-if __name__ == "__main__":
-    sent_match = SentenceMatch()
-    predict_label = sent_match.pred_if_match(post, response)[0]
-    print(predict_label)
-    sent_ppl = SentencePPL()
-    ppl = sent_ppl.cal_ppl(text)[1]
-    print(ppl)
