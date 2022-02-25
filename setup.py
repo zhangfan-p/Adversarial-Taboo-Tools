@@ -8,7 +8,7 @@ with open("requirements.txt") as freq:
 setup(
     name="judge_tools",
     version="0.1.0",
-    author="fan-s",
+    author="Fan-s",
     description="Sentence fluency and relevance detection tool",
     packages=find_packages(),
     python_requires=">=3.6",
