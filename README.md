@@ -1,5 +1,11 @@
 # Adversarial-Taboo-Tools
 
+## 安装方法
+
+```console
+$ python setup.py install
+```
+
 ## 说明
 
 句子流利度与相关性检测工具
