@@ -11,6 +11,6 @@ setup(
     author="Fan-s",
     description="Sentence fluency and relevance detection tool",
     packages=find_packages(),
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     install_requires=requirements,
 )
