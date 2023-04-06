@@ -1,23 +1,23 @@
 # Adversarial-Taboo-Tools
 
-## 安装方法
+## Installation
 
 ```console
 $ python setup.py install
 ```
 
-## 说明
+## Usage
 
-句子流利度与相关性检测工具
+Sentence Fluency and Relevance Detection Tool
 
-### 1. SentencePPL类
+### 1. SentencePPL
 
-用于检测句子的流利度，输入句子，返回该句子的流利度分数，越低越好
+Used to detect the fluency of a sentence, input the sentence and return the fluency score for that sentence, where lower is better
 
-参考 `examples/run_ppl.py`
+Refer to `examples/run_ppl.py`
 
-### 2. SentenceMatch类
+### 2. SentenceMatch
 
-用于检测两个句子是否关联，输入两个句子，返回 matched/unmatched（关联/不关联）
+Used to detect whether two sentences are related, input two sentences, return matched/unmatched
 
-参考 `examples/predict_match.py`
+Refer to `examples/predict_match.py`
